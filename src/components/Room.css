@@ -3,7 +3,8 @@
 }
 
 .room {
-  display: inline-block;
+  display: block;
+  margin:15px;
 }
 
 .room span,
@@ -14,6 +15,7 @@
 
 .room button {
   display: block;
+  margin:10px;
 }
 
 #status {
@@ -24,4 +26,21 @@
 
 .free {
   background-color: grey;
+}
+
+.light-on{
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.light-off{
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  background-color: grey;
+}
+
+.temp-buttons button{
+  width:28px;
 }
